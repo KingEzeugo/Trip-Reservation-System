@@ -21,3 +21,7 @@ This project is a Flask-based web application for managing trip reservations, fu
 ```bash
 git clone <repository_url>
 cd trip_reservation_system
+
+## Admin Login
+Username: Admin
+PW: P455W0RD
