@@ -14,7 +14,7 @@ This project is a Flask-based web application for managing trip reservations, fu
 ## Prerequisites
 - **Docker** installed ([Install Docker](https://www.docker.com/)).
 - **Git** installed ([Install Git](https://git-scm.com/)).
-- **SQLite** installed ([https://www.sqlite.org/download.html/]).
+- **SQLite** installed ([Install SQLite]https://www.sqlite.org/download.html)).
 
 ## Setup and Run
 
