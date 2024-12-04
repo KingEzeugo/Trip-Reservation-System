@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./db:/usr/src/app/db
+      - ./templates:/usr/src/app/templates
+      - ./static:/usr/src/app/static

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Reservation Confirmed</h2>
+<p>Your reservation code is: <strong>{{ code }}</strong></p>
+<p>Seat cost: <strong>${{ cost }}</strong></p>
+<a href="/" class="button">Return to Main Menu</a>
+{% endblock %}

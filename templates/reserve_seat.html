@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Reserve a Seat</h2>
+<form method="POST" class="form">
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required>
+    
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required>
+    
+    <label for="seat_row">Seat Row (1-12):</label>
+    <input type="number" id="seat_row" name="seat_row" min="1" max="12" required>
+    
+    <label for="seat_col">Seat Column (1-4):</label>
+    <input type="number" id="seat_col" name="seat_col" min="1" max="4" required>
+    
+    <button type="submit" class="button">Reserve</button>
+</form>
+{% endblock %}

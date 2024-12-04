@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Seating Chart</h2>
+<p>Total Sales: <strong>${{ total_sales }}</strong></p>
+<table class="seating-chart">
+    {% for row in seating_chart %}
+    <tr>
+        {% for seat in row %}
+        <td class="{{ 'reserved' if seat == 'Reserved' else 'available' }}">{{ seat }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
